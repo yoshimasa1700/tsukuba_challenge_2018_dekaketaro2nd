@@ -1,0 +1,3 @@
+[submodule "src/d435_proc"]
+	path = src/d435_proc
+	url = git@github.com:yoshimasa1700/d435_proc.git

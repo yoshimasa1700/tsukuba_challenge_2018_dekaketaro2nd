@@ -1,3 +1,6 @@
 [submodule "src/d435_proc"]
 	path = src/d435_proc
 	url = git@github.com:yoshimasa1700/d435_proc.git
+[submodule "src/semantic_segmentation"]
+	path = src/semantic_segmentation
+	url = https://github.com/yoshimasa1700/semantic_segmentation.git

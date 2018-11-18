@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+  <arg name="rosbag_path"/>
+  <!-- rosbag play -->
+  <include file="$(find d435_proc)/launch/d435_proc.launch">
+    <arg name="rosbag_path" value="$(arg rosbag_path)"/>
+  </include>
+
+  <!-- semantic segmentation -->
+  <include file="$(find semantic_segmentation)/launch/semantic_segmentation.launch" />
+</launch>
